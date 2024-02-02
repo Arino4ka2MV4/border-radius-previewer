@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 25px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+    height: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+.description-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto 50px;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.css-code-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-code-container > label {
+    margin-bottom: 20px;
+}
+
+#css-code {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs > div {
+    margin-bottom: 20px;
+}
+
+.first > * {
+    margin-left: 20px;
+}
+
+.second > * {
+    margin-left: 20px;
+}
+
+.third > * {
+    margin-left: 20px;
+}
+
+.fourth > * {
+    margin-left: 20px;
+}
+
+.css-code {
+    display: inline-block;
+}
+
+.apply {
+    text-align: center;
+}
