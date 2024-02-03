@@ -22,27 +22,26 @@
     </div>
     <div class="css-code-container">
         <label for="css-code">CSS-Код выбранных радиусов</label>
-        <p class="css-code-paragraph"><input type="text" id="css-code"></p>
+        <p class="css-code-paragraph"><input type="text" id="css-code" value="border-radius: 0px" readonly></p>
         <button class="copy">Копировать</button>
     </div>
     <div class="inputs">
         <div class="first">
             <label for="first-input">Левый верхний</label>
-            <input type="text" id="first-input" value="0">
+            <input type="number" id="first-input" value="0" max="180">
         </div>
         <div class="second">
             <label for="second-input">Левый нижний</label>
-            <input type="text" id="second-input" value="0">
+            <input type="number" id="second-input" value="0" max="180">
         </div>
         <div class="third">
             <label for="third-input">Правый верхний</label>
-            <input type="text" id="third-input" value="0">
+            <input type="number" id="third-input" value="0" max="180">
         </div>
         <div class="fourth">
             <label for="fourth-input">Правый нижний</label>
-            <input type="text" id="fourth-input" value="0">
+            <input type="number" id="fourth-input" value="0" max="180">
         </div>
-        <button class="apply">Применить</button>
     </div>
 </body>
 </html>
